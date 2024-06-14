@@ -73,3 +73,23 @@ main {
   margin-left: 5px;
   font-size: 16px;
 }
+
+.weather-app-temp {
+  display: flex;
+}
+
+.weather-app-temp-degree {
+  font-size: 88px;
+  font-weight: bold;
+}
+
+.weather-app-temp-emoji {
+  font-size: 44px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.weather-app-temp-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
