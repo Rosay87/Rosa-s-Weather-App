@@ -10,17 +10,22 @@
       rel="stylesheet"
     />
     <title>Rosa's Weather Appp</title>
-    <link rel="stylesheet" href="src/index.css"
+    <link rel="stylesheet" href="src/style.css"
   </head>
   <body>
+    <img
+      class="top-image"
+      src="file:///C:/Users/rosab/Downloads/undraw_walking_in_rain_vo9p.svg"
+    />
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city ..."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -29,7 +34,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
               Tuesday 14.:49, scattered clouds <br />
               Humidity: <strong>66% </strong>, Wind: <strong>3.13km/h</strong>
@@ -49,5 +54,10 @@
         <a href="https://www.netlify.com/">Netlify</a> ✌️
       </footer>
     </div>
+    <img
+      class="bottom-image"
+      src="file:///C:/Users/rosab/Downloads/undraw_beach_day_cser.svg"
+    />
+    <script src="src/index.js"></script>
   </body>
 </html>
