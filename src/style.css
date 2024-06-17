@@ -92,11 +92,11 @@ main {
 .weather-app-temp-degree {
   font-size: 88px;
   font-weight: bold;
+  line-height: 88px;
 }
 
 .weather-app-temp-emoji {
-  font-size: 44px;
-  margin-top: 20px;
+  width: 88px;
   margin-left: 10px;
 }
 
