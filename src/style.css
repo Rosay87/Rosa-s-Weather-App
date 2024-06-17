@@ -25,12 +25,12 @@ main {
 }
 
 .top-image {
-  max-width: 200px;
+  max-width: 150px;
   margin-left: 375px;
 }
 
 .bottom-image {
-  max-width: 200px;
+  max-width: 150px;
   margin: 10px 10px 10px 900px;
 }
 
